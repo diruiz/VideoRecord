@@ -89,5 +89,7 @@ function obtenerGifs(ids){
         .then(result =>{
              console.log(result)
         })
-        .catch(error => console.log('error', error));
+        .catch(error => {
+            console.log('error', error)
+        });
 }
