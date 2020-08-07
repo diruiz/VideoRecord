@@ -74,7 +74,9 @@ function subirGif(){
         obtenerGifs(idsAnteriores);
         alert("todo ok el id es: "+result.data.id);
     })
-    .catch(error => console.log('error', error));
+    .catch(error => {
+        console.log('error', error)
+    });
 
 }
 
